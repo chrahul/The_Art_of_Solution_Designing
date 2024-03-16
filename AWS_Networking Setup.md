@@ -2,6 +2,7 @@
 ### Step 1: Simplifying Complexity
 
 **Scenario:** You're tasked with designing a 3-tier application architecture in AWS. The application consists of a presentation tier handling user interfaces, an application tier managing business logic, and a data tier storing customer data.
+
 **Philosophy:** In the art of solution architecting, simplicity lays the foundation for brilliance. Start with a straightforward architecture that meets immediate needs while allowing room for future expansion.
 
 ### Consideration #1: Enabling Outbound Internet Access for App Servers
