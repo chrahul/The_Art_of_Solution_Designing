@@ -1,6 +1,8 @@
+# Difference between AWS ALB and AWS API Gateway
+
 Amazon Web Services (AWS) offers two prominent services for managing and routing web traffic: the Application Load Balancer (ALB) and the API Gateway. While both are crucial components in modern cloud architectures, they serve distinct purposes and cater to different use cases. Let's delve into the differences between AWS ALB and AWS API Gateway:
 
-### AWS Application Load Balancer (ALB):
+## AWS Application Load Balancer (ALB):
 
 1. **Traffic Management**: ALB is primarily designed for distributing incoming application traffic across multiple targets, such as EC2 instances, containers, or IP addresses, within AWS. It operates at Layer 7 of the OSI model, enabling advanced routing based on content, such as HTTP headers or request paths.
    
@@ -10,7 +12,7 @@ Amazon Web Services (AWS) offers two prominent services for managing and routing
 
 4. **Integration with Other AWS Services**: ALB seamlessly integrates with other AWS services like AWS Certificate Manager, AWS CloudWatch, and AWS Auto Scaling, enabling automated and scalable infrastructure deployments.
 
-### AWS API Gateway:
+## AWS API Gateway:
 
 1. **API Management**: API Gateway is specifically tailored for managing and exposing APIs to external clients. It allows developers to create, publish, monitor, and secure APIs at scale.
 
