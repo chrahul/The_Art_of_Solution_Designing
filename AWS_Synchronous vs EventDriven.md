@@ -1,6 +1,4 @@
-Certainly! Let's compare the synchronous and asynchronous architectures within the context provided:
 
----
 
 ## Synchronous Architecture:
 
