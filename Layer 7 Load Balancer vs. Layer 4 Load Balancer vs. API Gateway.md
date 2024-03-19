@@ -1,4 +1,4 @@
-Title: Deciphering the Cloud: Layer 7 Load Balancer vs. Layer 4 Load Balancer vs. API Gateway
+Deciphering the Cloud: Layer 7 Load Balancer vs. Layer 4 Load Balancer vs. API Gateway
 
 In the vast landscape of cloud architecture, the role of load balancers and API gateways cannot be overstated. As a Cloud Solution Architect, it's crucial to understand the nuances of these components to design robust and efficient cloud infrastructures. When it comes to load balancing and API management, three key players emerge: Layer 7 Load Balancers, Layer 4 Load Balancers, and API Gateways. Each serves a distinct purpose and excels in specific use cases. Let's delve into the comparison and explore when to use each along with their pros and cons.
 
