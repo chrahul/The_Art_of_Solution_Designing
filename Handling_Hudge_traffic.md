@@ -36,4 +36,5 @@ How can you make your application scalable for a big traffic day?
    - Check and increase limits for API Gateway concurrent connections as needed.
 
 9. **Kubernetes Scaling:**
-   - Use horizontal pod autoscaling and cluster overprovisioning in Kub
+   - Use horizontal pod autoscaling and cluster overprovisioning in Kubernetes to handle rapid traffic increases.
+   - Implement database proxies and check and adjust account limits and quotas accordingly.
