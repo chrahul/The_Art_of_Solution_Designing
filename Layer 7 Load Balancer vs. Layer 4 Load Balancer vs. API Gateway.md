@@ -31,6 +31,10 @@ In the vast landscape of cloud architecture, the role of load balancers and API 
 
 ### API Gateway
 
+
+![image](https://github.com/chrahul/The_Art_of_Solution_Designing/assets/14847377/24260e99-9ccc-4ad1-8059-a40a813f9c41)
+
+
 **Use Case:** API Gateways are specialized in managing APIs, providing features like authentication, authorization, rate limiting, and transformation. They are indispensable in microservices architectures and API-driven environments.
 
 **Pros:**
