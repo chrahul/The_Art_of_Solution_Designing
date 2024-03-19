@@ -14,6 +14,10 @@ Amazon Web Services (AWS) offers two prominent services for managing and routing
 
 ## AWS API Gateway:
 
+
+![image](https://github.com/chrahul/The_Art_of_Solution_Designing/assets/14847377/e4127aff-0cfb-4370-ac59-2712bd965400)
+
+
 1. **API Management**: API Gateway is specifically tailored for managing and exposing APIs to external clients. It allows developers to create, publish, monitor, and secure APIs at scale.
 
 2. **API Proxy**: API Gateway acts as a reverse proxy for APIs, allowing clients to interact with backend services hosted on AWS or elsewhere. It supports various protocols, including HTTP, REST, and WebSocket.
