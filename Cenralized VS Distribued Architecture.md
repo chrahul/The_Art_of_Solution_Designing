@@ -24,3 +24,33 @@ The web frontend is hosted on Amazon EC2 instances or AWS Elastic Beanstalk in m
 - **High Availability:** Choose distributed systems when high availability and uninterrupted service availability are critical requirements for your application.
 
 In summary, distributed systems play a crucial role in building scalable, fault-tolerant, and resilient applications in the AWS Cloud. They enable efficient resource utilization, high availability, and improved performance by distributing computation, storage, and communication across multiple nodes. The choice of distributed architecture depends on the specific requirements, constraints, and goals of your application.
+
+
+A centralized system is a computing architecture where all resources, data, and processing are managed and controlled from a single central location or server. In a centralized system, clients or users typically interact with the central server to access resources or perform tasks, and the server handles all requests and manages the system's operations.
+
+**Example in AWS Cloud:**
+An example of a centralized system in the AWS Cloud is a traditional monolithic application deployed on a single server or instance. In this scenario, all components of the application, including the frontend, backend, database, and storage, are hosted on a single server or virtual machine.
+
+For instance, consider a simple web application deployed on an Amazon EC2 instance. The EC2 instance runs a web server (e.g., Apache or Nginx) serving static web pages and handling dynamic requests using a server-side scripting language (e.g., PHP, Python, or Node.js). The application's data is stored in a relational database such as Amazon RDS (MySQL, PostgreSQL) or non-relational database such as Amazon DynamoDB.
+
+In this centralized architecture:
+- The EC2 instance acts as the central server hosting the entire application stack.
+- All client requests are directed to the EC2 instance, which handles both frontend and backend processing.
+- The database is hosted on the same EC2 instance or a separate instance within the same AWS region.
+- The application's code, data, and resources are tightly coupled and managed within the same environment.
+
+**Use Cases for Centralized Systems:**
+1. **Small-scale Web Applications:** Centralized systems are suitable for small-scale web applications or prototypes where simplicity, ease of deployment, and cost-effectiveness are prioritized over scalability and fault tolerance.
+   
+2. **Internal Tools and Dashboards:** Centralized systems can be used to develop internal tools, dashboards, and administrative interfaces that do not require high scalability or availability. These tools typically serve a limited number of users within an organization and have predictable usage patterns.
+
+3. **Development and Testing Environments:** Centralized systems are commonly used for development and testing environments, where developers can quickly spin up a single server instance to test application code, debug issues, and validate changes before deploying to production.
+
+4. **Educational Projects:** Centralized systems are often used for educational purposes, such as learning web development or software engineering concepts. Students can deploy simple web applications on a single server to understand fundamental principles of application deployment, database management, and server-side programming.
+
+**When to Use Centralized Systems:**
+- **Simplicity:** Choose centralized systems when simplicity and ease of deployment are more important than scalability, fault tolerance, and performance.
+- **Limited Resources:** Choose centralized systems when resources (such as budget, time, or infrastructure) are limited, and there is no immediate need for scaling or distributing the application across multiple servers.
+- **Predictable Workloads:** Choose centralized systems when the application has predictable usage patterns and does not require high availability or redundancy to handle fluctuating traffic loads.
+
+In summary, centralized systems are characterized by their simplicity, ease of deployment, and centralized control, making them suitable for small-scale applications, internal tools, development environments, and educational projects in the AWS Cloud. However, they may lack the scalability, fault tolerance, and resilience of distributed architectures, which should be considered when designing applications for production use.
