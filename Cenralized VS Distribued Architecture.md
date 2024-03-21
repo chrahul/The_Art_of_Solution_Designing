@@ -25,6 +25,7 @@ The web frontend is hosted on Amazon EC2 instances or AWS Elastic Beanstalk in m
 
 In summary, distributed systems play a crucial role in building scalable, fault-tolerant, and resilient applications in the AWS Cloud. They enable efficient resource utilization, high availability, and improved performance by distributing computation, storage, and communication across multiple nodes. The choice of distributed architecture depends on the specific requirements, constraints, and goals of your application.
 
+**Centralized System**
 
 A centralized system is a computing architecture where all resources, data, and processing are managed and controlled from a single central location or server. In a centralized system, clients or users typically interact with the central server to access resources or perform tasks, and the server handles all requests and manages the system's operations.
 
