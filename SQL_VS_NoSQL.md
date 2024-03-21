@@ -31,3 +31,33 @@ SQL (Structured Query Language) and NoSQL (Not Only SQL) are two types of databa
      Example: Internet of Things (IoT) platforms for collecting and analyzing sensor data from millions of devices in real-time.
 
 In summary, while SQL databases offer strong consistency and structured data storage suitable for transactional applications, NoSQL databases provide more flexibility, scalability, and performance for handling large volumes of unstructured data and distributed systems. The choice between SQL and NoSQL depends on the specific requirements of the application, including data structure, scalability needs, and consistency requirements.
+
+
+
+ACID and CAP theorem are two fundamental concepts in the field of distributed systems and database management.
+
+1. **ACID:**
+   ACID stands for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that ensure reliability and integrity in database transactions.
+
+   - **Atomicity:** Atomicity ensures that all operations within a transaction are performed as a single unit. Either all the operations are successfully completed, or none of them are. If any part of the transaction fails, the entire transaction is rolled back to its original state.
+   
+   - **Consistency:** Consistency ensures that the database remains in a consistent state before and after the transaction. All data integrity constraints, such as foreign key relationships and constraints, must be maintained.
+   
+   - **Isolation:** Isolation ensures that the operations within a transaction are isolated from other transactions until the transaction is completed. Concurrent transactions should not interfere with each other's operations.
+   
+   - **Durability:** Durability guarantees that once a transaction is committed, its effects are permanent and persist even in the event of system failures. The changes made by the transaction are stored permanently and cannot be lost.
+
+   SQL databases, especially those that adhere to the principles of traditional relational databases, typically follow the ACID properties. Examples include MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server.
+
+2. **CAP Theorem:**
+   CAP theorem, also known as Brewer's theorem, states that in a distributed computer system, it is impossible to simultaneously guarantee all three of the following properties:
+
+   - **Consistency:** Every read receives the most recent write or an error. In other words, all nodes in the system have the same data at the same time.
+   
+   - **Availability:** Every request receives a response, without guarantee that it contains the most recent write.
+   
+   - **Partition tolerance:** The system continues to operate despite network partitions (communication failures) between nodes.
+
+   According to the CAP theorem, a distributed system can only prioritize two out of the three properties at any given time. This means that in the event of a network partition, a distributed system must choose between consistency and availability.
+
+   NoSQL databases, which are often designed for distributed systems and horizontal scalability, typically adhere to the CAP theorem. For example, MongoDB, Cassandra, and DynamoDB prioritize either consistency and availability (CA systems) or availability and partition tolerance (AP systems), depending on the specific use case and configuration. These systems often sacrifice strong consistency (in favor of eventual consistency) in order to maintain high availability and partition tolerance.
