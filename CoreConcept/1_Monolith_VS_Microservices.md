@@ -15,6 +15,10 @@
   - All-or-nothing deployment leading to long release cycles.
 - **Integration with APIs**: Monolith can be fronted by API Gateway or load balancer to enable API usage.
 
+![image](https://github.com/chrahul/The_Art_of_Solution_Designing/assets/14847377/eb779957-1917-4cc1-8a55-f6c2d2ef7dd3)
+
+
+
 ### Scaling Challenges with Monolith:
 
 - Running on a virtual machine necessitates sizing for the entire application.
