@@ -1,4 +1,4 @@
-Absolutely, here's a detailed reference document on load balancing for System Design interviews, tailored for a Cloud Solution Architect role:
+![image](https://github.com/chrahul/The_Art_of_Solution_Designing/assets/14847377/4c6301e9-12a5-4d13-966b-875156f2fd6c)
 
 ### Load Balancing Deep Dive
 
