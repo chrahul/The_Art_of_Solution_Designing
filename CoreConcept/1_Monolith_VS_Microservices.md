@@ -47,4 +47,4 @@
   - Independence, scalability, and functional separation are key.
   - Not necessary to fulfill every microservice characteristic; flexibility is important.
 
-This reference document should aid in preparing for system design interviews, particularly for Cloud Solution Architect roles.
+
