@@ -17,7 +17,7 @@ When it comes to scaling systems, there are two primary approaches:
    - **Limitations**: Eventually, you'll reach the limits of how big a single machine can get. There are only so many CPUs or memory modules that can be added.
 
 
-![image](https://github.com/user-attachments/assets/de905942-e0a5-4ae7-8d9b-6289d95bd1f1)
+
 
    
 2. **Horizontal Scaling (Scaling Out)**:
