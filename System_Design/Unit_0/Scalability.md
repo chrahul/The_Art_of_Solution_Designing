@@ -15,6 +15,10 @@ When it comes to scaling systems, there are two primary approaches:
    - **Example**: Imagine you're running a web server that handles your personal website. If traffic suddenly spikes, you can upgrade your server with more powerful hardware to handle the increased load.
    - **Advantages**: Simple to implement, with fewer machines to manage.
    - **Limitations**: Eventually, you'll reach the limits of how big a single machine can get. There are only so many CPUs or memory modules that can be added.
+
+
+![image](https://github.com/user-attachments/assets/de905942-e0a5-4ae7-8d9b-6289d95bd1f1)
+
    
 2. **Horizontal Scaling (Scaling Out)**:
    - **Definition**: Adding more machines (servers) to distribute the load.
@@ -43,41 +47,6 @@ In **horizontal scaling**, the system architecture evolves into a more distribut
    
 2. **Amazon’s E-commerce Platform (Horizontal Scaling)**: Amazon's platform must handle millions of requests per second. To achieve this, they deploy multiple web servers behind load balancers. If a server fails, another one takes its place without affecting the user experience. As traffic grows, more servers are added to the pool.
 
-#### **Block Diagram: Scaling Architecture**
-
-Below is a simplified block diagram illustrating the differences between vertical and horizontal scaling:
-
-```
-  +---------------------------+                    +---------------------------+
-  |                           |                    |         Clients            |
-  |                           |                    |        (Users)             |
-  |         Clients            |                    |---------------------------|
-  |        (Users)             |                    |            |              |
-  |                           |                    |        +----------------+  |
-  +---------------------------+                    |        |   Load Balancer |  |
-           |                                        |        +----------------+  |
-           |                                        |               |            |
-    +-------------------+                           |               |            |
-    | Single Web Server  |                           |      +----------------+   |
-    | (Vertical Scaling) |                           |      | Web Server 1   |   |
-    +-------------------+                           |      +----------------+   |
-           |                                        |               |            |
-    +-------------------+                           |      +----------------+   |
-    | Single Database    |                           |      | Web Server 2   |   |
-    +-------------------+                           |      +----------------+   |
-                                                    |               |            |
-           (a) Vertical Scaling                     |               |            |
-                                                    |      +----------------+   |
-                                                    |      | Web Server 3   |   |
-                                                    |      +----------------+   |
-                                                    |               |            |
-                                                    |      +----------------+   |
-                                                    |      |    Database    |   |
-                                                    |      +----------------+   |
-                                                    |                           |
-                                                    |   (b) Horizontal Scaling  |
-                                                    +---------------------------+
-```
 
 **Key Takeaways**:
 - **Vertical Scaling** involves upgrading the server to a more powerful machine. It is simpler but limited.
