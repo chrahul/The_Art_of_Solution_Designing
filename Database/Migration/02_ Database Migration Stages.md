@@ -22,10 +22,10 @@ This deep dive will explore the **six critical stages of database migration**, o
 - **Performance Benchmarking:** Capture existing query performance, latency, and resource utilization.
 
 ### **1.2 Tools for Assessment**
-🛠 **AWS Schema Conversion Tool (SCT)** – Analyzes schema compatibility for AWS.  
-🛠 **Azure Database Migration Assistant (DMA)** – Assesses readiness for Azure SQL.  
-🛠 **Oracle GoldenGate Veridata** – Validates source-target consistency.  
-🛠 **Google Cloud Database Migration Service (DMS)** – Checks compatibility for GCP databases.  
+**AWS Schema Conversion Tool (SCT)** – Analyzes schema compatibility for AWS.  
+**Azure Database Migration Assistant (DMA)** – Assesses readiness for Azure SQL.  
+**Oracle GoldenGate Veridata** – Validates source-target consistency.  
+**Google Cloud Database Migration Service (DMS)** – Checks compatibility for GCP databases.  
 
 ---
 
