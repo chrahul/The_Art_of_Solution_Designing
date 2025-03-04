@@ -1,4 +1,4 @@
-Here is the **generic** version of your **Blog 1: Introduction to Database Migration** covering **all cloud providers (AWS, Azure, OCI, GCP)** and **on-prem to cloud** migrations.
+**Introduction to Database Migration** covering **all cloud providers (AWS, Azure, OCI, GCP)** and **on-prem to cloud** migrations.
 
 ---
 
