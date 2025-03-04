@@ -8,7 +8,7 @@ Database migration is not just about moving data from one system to another. It�
 
 Imagine a large **e-commerce company** migrating from **on-premise SQL Server to AWS RDS PostgreSQL**. The wrong migration strategy could lead to **data inconsistencies, application failures, and massive downtime**. To prevent this, organizations must evaluate **Live vs. Offline migrations** and pick a strategy that best suits their workload.  
 
-In this blog, we’ll explore:  
+In this talk, we’ll explore:  
 **Live vs. Offline Migration**  
 **Key migration strategies (Lift & Shift, Re-platforming, Refactoring, Hybrid)**  
 **Choosing the right strategy for SQL & NoSQL databases**  
