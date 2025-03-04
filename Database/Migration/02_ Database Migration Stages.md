@@ -47,9 +47,9 @@ This deep dive will explore the **six critical stages of database migration**, o
 **Failover & Rollback Strategy:** Plan for errors and unexpected failures.  
 
 ### **2.3 Tools for Migration Planning**
-🛠 **AWS DMS (Database Migration Service)** – Supports online & offline migrations.  
-🛠 **Oracle ZDM (Zero Downtime Migration)** – Automates minimal-downtime migrations.  
-🛠 **Azure Migrate** – Assists in on-prem to Azure SQL migrations.  
+**AWS DMS (Database Migration Service)** – Supports online & offline migrations.  
+**Oracle ZDM (Zero Downtime Migration)** – Automates minimal-downtime migrations.  
+**Azure Migrate** – Assists in on-prem to Azure SQL migrations.  
 
 ---
 
@@ -68,9 +68,9 @@ This deep dive will explore the **six critical stages of database migration**, o
 **Testing & Benchmarking:** Validate converted schema against application requirements.  
 
 ### **3.3 Tools for Schema Conversion**
-🛠 **AWS SCT (Schema Conversion Tool)** – Converts schema from Oracle, SQL Server, etc. to AWS RDS.  
-🛠 **Azure DMA (Database Migration Assistant)** – Assists schema conversion for SQL Server.  
-🛠 **Oracle SQL Developer Migration Workbench** – Converts Oracle schema for cloud compatibility.  
+**AWS SCT (Schema Conversion Tool)** – Converts schema from Oracle, SQL Server, etc. to AWS RDS.  
+**Azure DMA (Database Migration Assistant)** – Assists schema conversion for SQL Server.  
+**Oracle SQL Developer Migration Workbench** – Converts Oracle schema for cloud compatibility.  
 
 ---
 
@@ -91,9 +91,9 @@ This deep dive will explore the **six critical stages of database migration**, o
 - **Transactional Consistency:** Ensure ongoing transactions replicate correctly.
 
 ### **4.3 Tools for Data Migration**
-🛠 **AWS DMS** – Automates migration with minimal downtime.  
-🛠 **Oracle GoldenGate** – Real-time replication for high availability.  
-🛠 **Azure DMS** – Managed data migration service for Azure.  
+**AWS DMS** – Automates migration with minimal downtime.  
+**Oracle GoldenGate** – Real-time replication for high availability.  
+**Azure DMS** – Managed data migration service for Azure.  
 
 ---
 
@@ -115,9 +115,9 @@ This deep dive will explore the **six critical stages of database migration**, o
 - **Encryption & Data Masking:** Ensure sensitive data is encrypted.
 
 ### **5.4 Tools for Validation**
-🛠 **GoldenGate Veridata** – Compares source and target datasets for consistency.  
-🛠 **JMeter** – Load testing for database performance.  
-🛠 **AWS CloudWatch / Azure Monitor** – Monitors post-migration performance.  
+**GoldenGate Veridata** – Compares source and target datasets for consistency.  
+**JMeter** – Load testing for database performance.  
+**AWS CloudWatch / Azure Monitor** – Monitors post-migration performance.  
 
 ---
 
@@ -135,9 +135,9 @@ This deep dive will explore the **six critical stages of database migration**, o
 **Backup & Disaster Recovery:** Configure automated backups for failover.  
 
 ### **6.3 Tools for Optimization**
-🛠 **AWS Performance Insights** – Identifies slow-running queries.  
-🛠 **Azure SQL Advisor** – Provides indexing and tuning recommendations.  
-🛠 **OCI Database Performance Hub** – Optimizes SQL execution in Oracle Cloud.  
+**AWS Performance Insights** – Identifies slow-running queries.  
+**Azure SQL Advisor** – Provides indexing and tuning recommendations.  
+**OCI Database Performance Hub** – Optimizes SQL execution in Oracle Cloud.  
 
 ---
 
