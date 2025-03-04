@@ -3,7 +3,7 @@
 ---
 
 ## Database Migration Deep Dive – From Zero to Champion in Multi-Cloud**
-** Master database migration step by step—from fundamentals to real-world multi-cloud migrations.**
+**Master database migration step by step—from fundamentals to real-world multi-cloud migrations**
 
 ---
 
