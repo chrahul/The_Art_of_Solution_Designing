@@ -128,4 +128,4 @@ A **banking application** that requires **low downtime (RTO < 15 minutes)** will
 ## **10. Summary**
 OCI Full Stack Disaster Recovery is a **powerful, automated DR orchestration tool** that helps businesses **minimize downtime, reduce risk, and ensure business continuity** across Oracle Cloud Infrastructure. By automating failover, validation, and recovery processes, OCI FSDR simplifies disaster recovery planning and execution, making it an essential solution for organizations with mission-critical workloads.
 
-Would you like a **hands-on guide** or a **live demo** for setting up OCI Full Stack DR in your environment? 🚀
+
