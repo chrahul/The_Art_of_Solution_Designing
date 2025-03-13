@@ -1,4 +1,4 @@
-# **Oracle Cloud Infrastructure Full Stack Disaster Recovery (OCI FSDR) **
+# Oracle Cloud Infrastructure Full Stack Disaster Recovery (OCI FSDR) 
 
 ## **Introduction to OCI Full Stack Disaster Recovery (FSDR)**  
 Oracle Cloud Infrastructure **Full Stack Disaster Recovery (OCI FSDR)** is an automated disaster recovery **orchestration and management service** designed to protect entire application stacks across OCI regions. Unlike traditional disaster recovery (DR) solutions that focus only on individual components (like databases or compute instances), OCI FSDR ensures the seamless recovery of **applications, middleware, databases, and infrastructure** in the event of a failure.
